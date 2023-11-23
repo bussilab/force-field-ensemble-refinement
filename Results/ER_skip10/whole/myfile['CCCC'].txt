@@ -1,0 +1,10 @@
+data of the simulation:
+n. of systems: 1
+systems: ['CCCC']
+n. of frames: [100800]
+n. of experiments:
+ [[53, 246]]
+n. replicas test: 8
+n. observables test: [[16 74]]
+minimization method: L-BFGS-B
+start from zero? True
