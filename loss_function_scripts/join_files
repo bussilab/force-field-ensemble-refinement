@@ -1,0 +1,22 @@
+# example 1: ER, whole data set
+
+name_folder='ER_skip10/whole'
+
+for s1 in 'AAAA'
+do
+    for s2 in 'kish' 'minlambdas' 'table'
+    do
+        cat results_oligomers/${name_folder}/all_${s1}_${s2}_* > results_oligomers/${name_folder}/all_${s1}_${s2}
+        rm results_oligomers/${name_folder}/all_${s1}_${s2}_*
+    done
+done
+
+# example 2: ER+FFR, cross-validation
+
+name_folder='ERFFF_sincos_alphazeta_skip10'
+
+for s in 'minparlambdas' 'table' 'ff_minpars' 'ff_table' 'test_obs' 'test_contraj'
+do
+    cat results_oligomers/${name_folder}/${s}_* > results_oligomers/${name_folder}/${s}
+    rm results_oligomers/${name_folder}/${s}_*
+done
