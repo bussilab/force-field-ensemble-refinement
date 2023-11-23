@@ -1,0 +1,26 @@
+data of the simulation:
+n. of systems: 5
+systems: ['AAAA', 'CCCC', 'GACC', 'UUUU', 'UCAAUC']
+skip? True
+step: 10
+n. of frames: [101700 100800 101400  83600 101200]
+use also unobserved NOEs? True
+force field correction terms: ['sinalpha', 'cosalpha']
+n. of force field correction terms: 2
+n. of experiments:
+ [[ 64 244]
+ [ 53 246]
+ [ 49 285]
+ [ 34 283]
+ [102 581]]
+same choice as ensemble refinement 
+n. observables test: 
+[[ 19  73]
+ [ 16  74]
+ [ 15  86]
+ [ 10  85]
+ [ 31 174]]
+minimization method: 3
+start from zero? True
+gtol1 (inner minimization) 1e-05
+gtol2 (outer minimization) 1e-05

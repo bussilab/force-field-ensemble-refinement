@@ -1,0 +1,16 @@
+1. redchi2_av with its error redchi2_error (std on the mean) (csv format)
+
+Now, you have selected the optimal values of the hyperparameters: cross validation is done.
+For the following points, you will refer to these optimal values.
+
+2. optimal_ff_coeff_ERFFF and optimal_ff_coeff_FFF (pickle format):
+force field coefficients corresponding to optimal (alpha,beta) for ER+FFF and to optimal beta for FFF
+
+waiting for the values coming from the minimization on the whole data set (with or without step=10) - ER over all the observables
+
+these coefficients are then used to reweight ensembles of validating molecules
+
+3. red.chi2 on validating molecules, for: original ff, ff correction with FFF coeff, ff correction with ERFFF coeff
+you can compute it using: each single t-uple of coefficients (i.e., for each seed), or the t-uple of av. values, or the t-uple of coefficients coming from the minimization on the whole dataset (still waiting)
+
+4. red.chi2 on validating molecules, after you have performed ensemble refinement on top of corrected force fields
